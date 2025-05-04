@@ -1,0 +1,4 @@
+{
+  image: "node:slim",
+  forwardPorts: [3000]
+}
