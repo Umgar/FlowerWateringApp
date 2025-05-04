@@ -1,4 +1,7 @@
 {
-  image: "node:slim",
-  forwardPorts: [3000]
+  build: {
+    dockerfile: "./Dockerfile"
+  },
+  forwardPorts: [3000],
+  name: "Flower Watering App"
 }
